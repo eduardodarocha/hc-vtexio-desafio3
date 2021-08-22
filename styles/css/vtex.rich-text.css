@@ -4,18 +4,18 @@
   width: 100%;
 }
 .paragraph--hc-text-1 {
-margin: 2px 0 2px 0;
-text-align: center;
-} 
+  margin: 2px 0 2px 0;
+  text-align: center;
+}
 .wrapper--hc-text-2 {
   color: #14ff00;
   background-color: #000;
   width: 100%;
 }
 .paragraph--hc-text-2 {
-margin: 2px 0 2px 0;
-text-align: center;
-} 
+  margin: 2px 0 2px 0;
+  text-align: center;
+}
 .container--layout-option {
   margin-left: 0.3em;
 }
@@ -35,7 +35,7 @@ text-align: center;
   color: #fff;
   margin: auto;
   font-family: "Montserrat";
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .wrapper--icontext {
   background-color: #424242;
