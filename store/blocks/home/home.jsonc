@@ -1,0 +1,83 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#header",
+      "list-context.image-list#home",
+      "search-result-layout.customQuery#hc-upmedal"
+    ]
+  },
+  "list-context.image-list#home": {
+    "children": ["slider-layout#home-images"],
+    "props": {
+      "height": 700,
+      "images": [{
+          "image": "assets/banner-wood.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-guerreiros.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "list-context.image-list#hc-upmedal": {
+    "children": ["slider-layout#hc-upmedal-images"],
+    "props": {
+      "height": 700,
+      "images": [{
+          "image": "assets/banner-wood.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/banner-guerreiros.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#hc-upmedal-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  
+  "search-result-layout.customQuery#hc-upmedal": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 8,
+        "queryField": "Kit UpMedal,  UpMedal",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  }
+  
+  
+}

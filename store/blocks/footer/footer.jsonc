@@ -1,0 +1,167 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop#hc-upmedal-footer",
+      "footer-layout.mobile#hc-upmedal-footer"
+    ]
+  },
+  "footer-layout.desktop#hc-upmedal-footer": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile#hc-upmedal-footer": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "props": {
+      "blockClass": "footer",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#login",
+      "flex-layout.col#challenge",
+      "flex-layout.col#cart",
+      "flex-layout.col#suporte"
+      // "flex-layout.col#newsletter"
+    ]
+  },
+  "flex-layout.col#login": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "iconcol"
+    },
+    "children": [
+      "image#login",
+      "rich-text#login"
+    ]
+  },
+  "image#login": {
+    "props": {
+      "src": "assets/user.png ",
+      "link": "/login",
+      "blockClass": "iconimg"
+
+    }
+  },
+  "rich-text#login": {
+    "props": {
+      "text": "ENTRAR",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "icontext"
+    }
+  },
+  "flex-layout.col#challenge": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "iconcol"
+    },
+    "children": [
+      "image#challenge",
+      "rich-text#challenge"
+    ]
+  },
+  "image#challenge": {
+    "props": {
+      "src": "assets/trophy.png",
+      "link": "/",
+      "blockClass": "iconimg"
+    }
+  },
+  "rich-text#challenge": {
+    "props": {
+      "text": "DESAFIOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "icontext"
+    }
+  },
+  "flex-layout.col#cart": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "iconcol"
+    },
+    "children": [
+      "image#cart",
+      "rich-text#cart"
+    ]
+  },
+  "image#cart": {
+    "props": {
+      "src": "assets/cart.png",
+      "link": "/",
+      "blockClass": "iconimg"
+    }
+  },
+  "rich-text#cart": {
+    "props": {
+      "text": "LOJA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "icontext"
+    }
+  },
+  "flex-layout.col#suporte": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "iconcol"
+    },
+    "children": [
+      "image#whatsapp",
+      "rich-text#suporte"
+    ]
+  },
+  "image#whatsapp":{
+    "props":{
+        // "title": "WhatsApp",
+        "text": "LOJA",
+        "url": "https://api.whatsapp.com/send?phone=556232272422&text=Ol%C3%A1!%20Estou%20no%20Hiring%20Coders%20e%20preciso%20de%20sua%20ajuda!",
+        "src": "assets/whatsapp.png",
+        "blockClass": "iconimg"
+    }
+  },
+  "rich-text#suporte": {
+    "props": {
+      "text": "SUPORTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "icontext"
+    }
+  }
+  // "flex-layout.col#newsletter": {
+  //   "props": {
+  //     "horizontalAlign": "center"
+  //   },
+  //   "children": [
+  //     "image#newsletter",
+  //     "rich-text#newsletter"
+  //   ]
+  // }
+  // "image#newsletter": {
+  //   "props": {
+  //     "src": "assets/newsletter.png",
+  //     "link": "/formleads"
+  //   }
+  // },  
+  // "rich-text#newsletter": {
+  //   "props": {
+  //     "text": "CADASTRE-SE",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "blockClass": "icontext"
+  //   }
+  // }
+}

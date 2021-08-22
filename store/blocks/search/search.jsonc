@@ -1,0 +1,131 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+
+  },
+  "search-result-layout.desktop#hc-upmedal": {
+    "children": [
+      "search-content#hc-upmedal"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "hc-upmedal-search",
+      "mobileLayout": {
+        "mode1": "normal"
+      }
+    }
+  },
+  
+  "search-content#hc-upmedal": {
+    "blocks": [
+      "gallery#hc-upmedal", "not-found"
+    ]
+  },
+
+  "search-result-layout.mobile#hc-upmedal": {
+    "children": []
+  },
+
+  "gallery#hc-upmedal": {
+    "props": {
+      "layouts": [{
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            // "(min-Width: 1300px)": 4,
+            "desktop": 3,
+            "tablet": 2,
+            "mobile": 1
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#hc-upmedal"
+    }
+  },
+  "product-summary.shelf#hc-upmedal": {
+    "children": [
+      "modal-trigger#hc-upmedal",
+      "product-summary-name",
+      "product-images",
+      "rich-text#hc-upmedal-1",
+      "rich-text#hc-upmedal-2",
+      "product-summary-price",
+      "add-to-cart-button#hc-upmedal"
+    ],
+    "props": {
+      "blockClass": "hc-upmedal-product-summary"
+    }
+
+  },
+  "modal-trigger#hc-upmedal": {
+    "children": [
+      "rich-text#hc-upmedal-trigger",
+      "modal-layout#hc-upmedal"
+    ]
+  },
+  "rich-text#hc-upmedal-trigger": {
+    "props": {
+      "text": "Vídeo",
+      "blockClass": "txt-trigger"
+
+    }
+  },
+  "modal-layout#hc-upmedal": {
+    "children": [
+      "video#hc-upmedal"
+    ],
+    "props": {
+      "blockClass": "hc-upmedal-modal"
+    }
+  },
+  "video#hc-upmedal": {
+    "props": {
+      "width": "100%",
+      "height": "30%",
+      // "height": "200px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=cJu9kMrA9I4",
+      "blockClass": "videoEl"
+    }
+  },
+
+  "rich-text#hc-upmedal-1": {
+    "props": {
+      "text": "PRÉ-LANÇAMENTO",
+      "blockClass": "hc-text-1"
+    }
+
+  },
+  "rich-text#hc-upmedal-2": {
+    "props": {
+      "text": "VALIDAÇÃO A PARTIR DE 09/10/2021",
+      "blockClass": "hc-text-2"
+    }
+
+  },
+  "flex-layout.row#hc-product": {
+    "children": [
+      "product-summary-price",
+      "add-to-cart-button#hc-upmedal"
+    ]
+  },
+  "add-to-cart-button#hc-upmedal": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "VER DETALHES",
+      "blockClass": "hc-button"
+    }
+  }
+  
+}

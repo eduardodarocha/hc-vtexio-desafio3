@@ -1,0 +1,44 @@
+.nameContainer--summaryListDesktop {
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  justify-content: start;
+}
+
+.nameContainer--summaryListMobile {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  justify-content: start;
+}
+
+.brandName--summaryListMobile {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.container--hc-upmedal-product-summary {
+  background-color: #424242;
+}
+
+.currencyContainer {
+  color: #14ff00;
+  padding: 20px;
+  font-family: "Montserrat-Bold";
+  font-size: 1.1rem;
+}
+
+.price_installmentContainer {
+  color: #14ff00;
+  text-align: center;
+  font-family: "Montserrat-Bold";
+}
+
+.nameContainer {
+  height: 50px;
+  margin: auto;
+}
+
+.productBrand {
+  color: #14ff00;
+  text-align: center;
+}

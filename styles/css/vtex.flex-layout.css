@@ -1,0 +1,63 @@
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+.flexRowContent {
+  height: 5.1rem;
+  background-color: #212121;
+}
+
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #eef3f7;
+  border-color: #eef3f7;
+  color: #0f9921;
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #dbe9fd;
+  border-color: #dbe9fd;
+}
+
+.flexCol--productRating {
+  margin-bottom: 3rem;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem;
+}
+.flexCol--iconimg {
+  background-color: #414141;
+}
+.flexCol {
+  background-color: #212121;
+}
+.flexCol--iconcol {
+  background-color: #414141;
+}
+.main-header {
+  background-color: #212121;
+}
+.flexColChild {
+  background-color: #313131;
+}
+.flexColChild--logo-header {
+  background-color: #212121;
+}
+.flexRowContent--footer {
+  background-color: #424242;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  height: fit-content;
+}

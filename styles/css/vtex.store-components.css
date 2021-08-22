@@ -1,0 +1,42 @@
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067c7;
+  font-size: 0.875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067c7;
+  font-size: 0.875rem;
+}
+.searchBarContainer {
+  width: 600px;
+  background-color: #212121;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0;
+  border-bottom: thin solid #59ff00;
+  background-color: #212121;
+}
+.searchBarContainer :global(.vtex-input__suffix) {
+  background: transparent;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #ffffff;
+}
+.searchIcon {
+  color: white;
+}
+.imageElement--iconimg {
+  background-color: #414141;
+}
+.imageElementLink--iconimg {
+  background-color: #414141;
+}

@@ -1,0 +1,125 @@
+{
+  "search-result-layout.customQuery#promocao": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Promoção",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#corinthians": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Corinthians",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Palmeiras",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#signos": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Signos",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#divertidos": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Divertidos",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#7maravilhas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "UpMedal",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#guerreiro": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Guerreiros",
+        "mapField": "category-3",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#hc-upmedal",
+      "search-result-layout.mobile#hc-upmedal",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#hc-upmedal-corinthians": {
+  }
+}

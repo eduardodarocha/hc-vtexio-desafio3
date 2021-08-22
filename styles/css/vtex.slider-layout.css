@@ -1,0 +1,24 @@
+.slideChildrenContainer {
+  width: 900px;
+  margin: auto;
+  margin-top: 0px;
+}
+.imageElement--carousel {
+  width: 80%;
+  border-radius: 20px;
+}
+.slide {
+  background-color: #303030;
+  height: 380px;
+}
+.sliderArrows {
+  overflow: hidden;
+  position: absolute;
+  color: white;
+  margin-top: 355px;
+  margin-left: 255px;
+  margin-right: 255px;
+}
+.paginationDot {
+  margin-top: 250px;
+}

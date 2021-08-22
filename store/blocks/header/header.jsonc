@@ -1,0 +1,237 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop#hc-upmedal", "header-layout.mobile#hc-upmedal"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop#hc-upmedal", "header-layout.mobile#hc-upmedal"]
+  },
+  "header-layout.desktop#hc-upmedal": {
+    "children": [
+      "sticky-layout#hc-upmedal-header"
+      // "tab-layout#header"
+    ]
+  },
+  "sticky-layout#hc-upmedal-header": {
+    "props": {
+      "blockClass": "sticky-header",
+      "position": "top"
+    },
+    "children": ["flex-layout.row#hc-upmedal-header"]
+  },
+  "flex-layout.row#hc-upmedal-header": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-header"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "minicart.v2",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "logo-header"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/upmedal.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile#hc-upmedal": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",   
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/upmedal.png ",
+      "width": "70"
+    }
+  }
+
+  // "sticky-layout#hc-upmedal-menu": {
+  //   "children": ["tab-layout#header"]
+  // },
+
+  // "tab-layout#header": {
+  //   "props": {
+  //     "blockClass": "tabheader",
+  //     "defaultActiveTabId": "tabheader1",
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "center",
+  //     "preventHorizontalStretch": true,
+  //     "preventVerticalStretch": true,
+  //     "fullWidth": true
+  //   },
+  //   "children": [     
+  //     "tab-list#header",
+  //     "tab-content#header"
+  //   ]
+  // },
+ 
+  // "tab-list#header": {
+  //   "children": [
+  //     "tab-list.item#header1",
+  //     "tab-list.item#header2",
+  //     "tab-list.item#header3",
+  //     "tab-list.item#header4",
+  //     "tab-list.item#header5",
+  //     "tab-list.item#header6",
+  //     "tab-list.item#header7"
+  //   ]
+  // },
+  // "tab-list.item#header1": {
+  //   "props": {
+  //     "tabId": "header1",
+  //     "label": "PROMOÇÃO",
+  //     "defaultActiveTab": true
+  //   }
+  // },
+  // "tab-list.item#header2": {
+  //   "props": {
+  //     "tabId": "header2",
+  //     "label": "CORINTHIANS"
+  //   }
+  // },
+  // "tab-list.item#header3": {
+  //   "props": {
+  //     "tabId": "header3",
+  //     "label": "PALMEIRAS"
+  //   }
+  // },
+  // "tab-list.item#header4": {
+  //   "props": {
+  //     "tabId": "header4",
+  //     "label": "SIGNOS"
+  //   }
+  // },
+  // "tab-list.item#header5": {
+  //   "props": {
+  //     "tabId": "header5",
+  //     "label": "DIVERTIDOS"
+  //   }
+  // },
+  // "tab-list.item#header6": {
+  //   "props": {
+  //     "tabId": "header6",
+  //     "label": "7MARAVILHAS"
+  //   }
+  // },
+  // "tab-list.item#header7": {
+  //   "props": {
+  //     "tabId": "header7",
+  //     "label": "GUERREIROS"
+  //   }
+  // },
+  // "tab-content#header": {
+  //   "children": [
+  //     "tab-content.item#header1",
+  //     "tab-content.item#header2",
+  //     "tab-content.item#header3",
+  //     "tab-content.item#header4",
+  //     "tab-content.item#header5",
+  //     "tab-content.item#header6",
+  //     "tab-content.item#header7"
+  //   ]
+  // },
+  // "tab-content.item#header1": {
+  //   "children": [
+  //     "search-result-layout.customQuery#promocao"   
+  //   ],
+  //   "props": {
+  //     "tabId": "header1"
+  //   }
+  // },
+  // "tab-content.item#header2": {
+  //   "children": [
+  //     // "list-context.image-list#home",
+  //     "search-result-layout.customQuery#corinthians"
+  //   ],
+  //   "props": {
+  //     "tabId": "header2"
+  //   }
+  // },
+  // "tab-content.item#header3": {
+  //   "children": [
+  //     "search-result-layout.customQuery#palmeiras"
+    
+  //   ],
+  //   "props": {
+  //     "tabId": "header3"
+  //   }
+  // },
+  // "tab-content.item#header4": {
+  //   "children": [
+  //     "search-result-layout.customQuery#signos"
+  
+  //   ],
+  //   "props": {
+  //     "tabId": "header4"
+  //   }
+  // },
+  // "tab-content.item#header5": {
+  //   "children": [
+  //     "search-result-layout.customQuery#divertidos"
+    
+  //   ],
+  //   "props": {
+  //     "tabId": "header5"
+  //   }
+  // },
+  // "tab-content.item#header6": {
+  //   "children": [
+  //     "search-result-layout.customQuery#7maravilhas"
+  //   ],
+  //   "props": {
+  //     "tabId": "header6"
+  //   }
+  // },
+  // "tab-content.item#header7": {
+  //   "children": [
+  //     "search-result-layout.customQuery#guerreiro"   
+  //   ],
+  //   "props": {
+  //     "tabId": "header7"
+  //   }
+  // }
+}
